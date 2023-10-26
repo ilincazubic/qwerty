@@ -1,16 +1,16 @@
 body {
-     background-color: red;
+    background-color: red;
 }
 
 h1 {
-    text-align: center;
+   text-align: center;
 }
 
 .head1 {
-    background-color: azure;
+   background-color: azure;
 }
 
 #head2 {
-    background-color: blanchedalmond;
-    color: aqua;
+   background-color: blanchedalmond;
+   color: aqua;
 }
