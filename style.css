@@ -1,18 +1,3 @@
-div a {
-   background-color:khaki;
-   padding: 20px;
-  }
-
-
-a > h1 {
-  background-color: lightcoral;
-  color:bisque;
-}
-
-a + a {
-  background-color:darkseagreen;
-}
-
 {
   padding: 0;
   margin: 0;    
