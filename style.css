@@ -1,15 +1,18 @@
-div a {
-   background-color:khaki;
-   padding: 20px;
-  }
-
-
-a > h1 {
-  background-color: lightcoral;
-  color:bisque;
+.nav-bar {
+  background-color: lightgreen;
+  color: black;
+  padding: 20px;
 }
 
-a + a {
-  background-color:darkseagreen;
+.content {
+  padding: 30px;
 }
 
+.footer {
+  background-color: lightpink;
+  color:black;
+  padding: 20px;
+  text-align:center;
+  height: 100px;
+}
+   
