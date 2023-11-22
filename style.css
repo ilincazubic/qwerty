@@ -1,18 +1,13 @@
-.nav-bar {
-  background-color: lightgreen;
+div p {
+     background-color: lightgreen;
+     padding: 20px;
+}
+
+div > a {
+  background-color: lightblue;
   color: black;
-  padding: 20px;
 }
 
-.content {
-  padding: 30px;
-}
-
-.footer {
+a + a {
   background-color: lightpink;
-  color:black;
-  padding: 20px;
-  text-align:center;
-  height: 100px;
 }
-   
