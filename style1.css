@@ -7,7 +7,7 @@ p:hover {
 p:before {
      content: 'Hi';
      color:black;
-     font-weight: italic;
+     font-weight: bold;
 }
 
 
