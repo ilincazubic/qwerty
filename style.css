@@ -1,4 +1,4 @@
-div p {
+<h1> div p {
      background-color: lightgreen;
      padding: 20px;
 }
@@ -11,12 +11,12 @@ div > a {
 a + a {
   background-color: lightpink;
 }
+</h1>
 
 
 
 
-
-p:hover {
+<h1> p:hover {
      color:lightsteelblue;
      font-weight: bold;
 }
@@ -41,3 +41,4 @@ p::selection{
       background-color: chartreuse;
       color:white;
 }
+</h1>
