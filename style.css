@@ -1,4 +1,4 @@
-<h1> div p {
+ div p {
      background-color: lightgreen;
      padding: 20px;
 }
@@ -11,34 +11,3 @@ div > a {
 a + a {
   background-color: lightpink;
 }
-</h1>
-
-
-
-
-<h1> p:hover {
-     color:lightsteelblue;
-     font-weight: bold;
-}
-
-
-p:before {
-     content: 'Hi';
-     color:black;
-     font-weight: italic;
-}
-
-
-
-p:after{
-     content: 'Bye';
-     color:darkslategray;
-     font-weight: bold;
-}
-
-
-p::selection{
-      background-color: chartreuse;
-      color:white;
-}
-</h1>
