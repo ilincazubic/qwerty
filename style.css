@@ -1,13 +1,25 @@
- div p {
-     background-color: lightgreen;
-     padding: 20px;
+p:hover {
+     color:lightsteelblue;
+     font-weight: bold;
 }
 
-div > a {
-  background-color: lightblue;
-  color: black;
+
+p:before {
+     content: 'Hi';
+     color:black;
+     font-weight: italic;
 }
 
-a + a {
-  background-color: lightpink;
+
+
+p:after{
+     content: 'Bye';
+     color:darkslategray;
+     font-weight: bold;
+}
+
+
+p::selection{
+      background-color: chartreuse;
+      color:white;
 }
