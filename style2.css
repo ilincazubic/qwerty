@@ -13,7 +13,7 @@
 
 .banner {
     background-color: lightslategray;
-    height: 70px;
+    height: 60px;
 }
 
 .content{
@@ -29,5 +29,5 @@
 
 img {
    width: 100%;
-   filter:contrast(40%) hue-rotate(70%)
+   filter:contrast(40%) hue-rotate(60%)
 }
