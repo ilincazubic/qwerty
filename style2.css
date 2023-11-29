@@ -26,5 +26,5 @@
 
 img {
    width: 100%;
-   filter:contrast(40%) hue-rotate(60%)
+   filter:contrast(40%) invert(60%)
 }
