@@ -26,5 +26,5 @@
 
 img {
    width: 100%;
-   filter:contrast(50%) blur(30%)
+   filter:contrast(50%) blur(30%);
 }
