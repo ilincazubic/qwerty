@@ -1,36 +1,33 @@
-/* Visibility property */
-.visible
-{
-   visibility: visible;
-}
-.hidden{
-   visibility: hidden;
-}
-/* Opacity */
-.op_1 {
-   opacity: 1;
-}
-.op_0 {
-   opacity: 0;
-}
-.op_05 {
-   opacity: 0.5;
-}
-/* Display */
-.none {
-   display: none;
-   font-weight: bold;
-}
-.inline {
-   display: inline;
-   font-weight: bold;
-}
-.block {
-   display: block;
-   font-weight: bold;
+* {
+   padding: 0;
+   margin: 0;
 }
 
-h3 {
-   background-color: mediumpurple;
-   text-align: center;
+.nav {
+    background-color: rgb(253, 185, 185);
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.banner {
+    background-color: lightslategray;
+    height: 200px;
+}
+
+.content{
+    background-color: rgb(246, 213, 213);
+    height: 400px;
+}
+
+.footer{
+    background-color: rgb(37, 27, 27);
+    height: 200px;
+    height: 100px;
+}
+
+img {
+   width: 100%;
+   filter: grayscale(100%) invert(100%)
 }
