@@ -1,6 +1,6 @@
 * {
    padding: 0 px;
-   margin: 8 px;
+   margin: 0 px;
 }
 
 .nav {
@@ -26,5 +26,5 @@
 
 img {
    width: 100%;
-   filter: contrast(50%) blur(20%);
+   filter: contrast(50%) blur(40%);
 }
