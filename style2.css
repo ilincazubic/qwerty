@@ -1,30 +1,17 @@
-* {
-   padding: 0 px;
-   margin: 0 px;
+@keyframes my-animation {
+     from {background-color: lightskyblue;}
+     to {background-color: lightgreen;}
 }
 
-.nav {
-    background-color: rgb(253, 185, 185);
-    height: 20px;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.banner {
-    background-color: lightslategray;
-    height: 50px;
-}
-
-.content{
-    height: 200px;
-}
-
-.footer{
-    height: 200px;
+body {
+     animation: my-animation 2s forwards;
 }
 
 img {
-   width: 100%;
-   filter: contrast(50%) blur(40%);
+     width: 500px;
+     transition: 0.5s;
+}
+
+img:active {
+     width: 800px;
 }
