@@ -1,25 +1,54 @@
-p:hover {
-     color:lightsteelblue;
-     font-weight: bold;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-
-p:before {
-     content: 'Hi';
-     color:black;
-     font-weight: bold;
+.content ul {
+    list-style-type: none;
+    margin-left: 2;
+    margin-right: 2;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-
-
-p:after{
-     content: 'Bye';
-     color:darkslategray;
-     font-weight: bold;
+.content li {
+    float: left;
 }
 
-
-p::selection{
-      background-color: chartreuse;
-      color:white;
+.content li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+.content li a:hover {
+    background-color: black;
+}
+
+.content h1 {
+    color:cornflowerblue;
+    text-align: center;
+}
+
+.content h2 {
+    color:indianred;
+    text-align: center;
+}
+
+.content h3 {
+    color:forestgreen;
+    text-align: left;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    margin: 20px;
+  }
