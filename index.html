@@ -1,20 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewreport" content="width=device-width, initial-scale=1.0">
-    <title>Visibility</title>
-    <link rel="stylesheet" href="style2.css">
-    
+
+    <h3>Our products</h3>
+    <p style="margin: 20px; font-size: 18px;"></p>
+
+    <h2>Donuts</h2>
+    <div class="image-gallery">
+        <img src="https://www.berlin.de/binaries/asset/image_assets/6502768/ratio_4_3/1663588334/800x600/" alt="Description of the image">
+    </div>
+
+    <h2>Cupcakes</h2>
+    <div class="image-gallery">
+        <img src="https://bakealiciousbygabriela.com.au/cdn/shop/products/Bakealicious-By-Gabriela-Best-Cupcakes-Sydney-Delivery-2_2000x.jpg?v=1667262181" alt="Description of the image">
+    </div>
+
+    <h2>Brownies</h2>
+    <div class="image-gallery">
+        <img src="https://www.shugarysweets.com/wp-content/uploads/2021/02/mm-brownies-squares.jpg" alt="Description of the image">
+    </div>
+
+    <h2>Mini cakes</h2>
+    <div class="image-gallery">
+        <img src="https://i.ytimg.com/vi/uH6oC5bcpho/maxresdefault.jpg" alt="Description of the image">
+    </div>
+
+    <h2>Ice cream</h2>
+    <div class="image-gallery" >
+        <img src="https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/08/Ice-cream-sundae-hero-11.jpg" alt="Description of the image">
+    </div>
+
+    <style>
+        h1 {
+            margin-left: 20px;
+        }
+
+        p {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        /* Add specific margin for labels */
+        label {
+            display: block;
+            margin-left: 5px;
+        }
+
+        /* Add specific margin for the words: email, address, product, phone number */
+        label[for="email"],
+        label[for="address"],
+        label[for="product"],
+        label[for="phone-number"] {
+            margin-left: 30px; /* You can adjust the margin value as needed */
+        }
+
+        input {
+            margin-left: 10px;
+        }
+    </style>
 </head>
-    <body>
-        <div>
-            <i>Christmas is coming</i>
-            <b>It is cold outside</b>
-        </div>
-        <img src="https://hips.hearstapps.com/clv.h-cdn.co/assets/17/51/1513617783-pigoff-photography-195118.jpg?crop=1xw:1.0xh;center,top&resize=640:*">
+<body>
 
-         <a href="about.html">Classwork</a>
+    <h1>Contact</h1>
+    <p>If you want to place an order, please complete the form below:</p>
 
-    </body>
+    <div>
+        <label for="product">Product:</label>
+        <input type="text" id="product" name="product">
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </div>
+
+    <div>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+    </div>
+
+    <div>
+        <label for="phone-number">Phone number:</label>
+        <input type="text" id="phone-number" name="phone-number">
+    </div>
+
+    <h1>Finish</h1>
+    <p style="margin: 20px; font-size: 18px;">Thank you for taking the time to read the information about our little bakery but with many goals set. - Louis Vuitton. </p>
+    <p style="margin: 20px; font-size: 18px;">For more information you can access the link below.</p>
+
+  <style>
+    a {
+      margin-left: 20px; 
+    }
+  </style>
+</head>
+<body>
+
+  <a href="https://www.sweettimez.com/about">SWEET TIME BAKERY</a>
+
+</body>
 </html>
